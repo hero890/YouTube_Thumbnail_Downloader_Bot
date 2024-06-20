@@ -1,7 +1,7 @@
 from py_youtube import Data
 from telegram.ext import Updater,MessageHandler,CommandHandler,Filters
 import os 
-BOT_TOKEN = os.environ.get("TOKEN","")
+BOT_TOKEN = os.environ.get("TOKEN","7087741098:AAFhQ6yKXdScmNcKPlutvHL1sHhUKdb5dws")
 updater = Updater(BOT_TOKEN,use_context = True )
 
 def start(updater,context):
